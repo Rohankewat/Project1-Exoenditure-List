@@ -1,0 +1,72 @@
+.expenseForm {
+    position: absolute;
+    border: 1px solid rgb(228, 178, 228);
+    top: 40px;
+    left: 264px;
+    padding: 10px;
+    width: 680px;
+    height: 150px;
+    border-radius: 12px;
+    background-color: rgb(228, 178, 228);
+}
+
+.inp1 {
+    position: absolute;
+    top: 31px;
+    left: 50px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.inp2 {
+    position: absolute;
+    left: 400px;
+    top: 31px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.inp3 {
+    position: absolute;
+    top: 90px;
+    left: 50px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.title-label {
+    position: absolute;
+    left: 50px;
+    font-weight: bolder;
+}
+
+.amount-label {
+    position: absolute;
+    left: 400px;
+    top: 10px;
+    font-weight: bolder;
+}
+
+.date-label {
+    position: absolute;
+    top: 70px;
+    left: 50px;
+    font-weight: bolder;
+}
+
+button {
+    position: absolute;
+    top: 130px;
+    left: 500px;
+    padding: 5px;
+    width: 80px;
+    border-radius: 7px;
+    border: 0px;
+    background-color: darkmagenta;
+    color: white;
+}
+
+button:hover {
+    transition: 2s;
+    background-color: orchid;
+}
